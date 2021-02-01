@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+    <servlet>
+        <!--        servlet的别名-->
+        <servlet-name>first</servlet-name>
+        <servlet-class>com.imooc.FirstServlet1</servlet-class>
+    </servlet>
+    <!--    servlet与url绑定-->
+    <servlet-mapping>
+        <servlet-name>first</servlet-name>
+        <url-pattern>/hi</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <!--        servlet的别名-->
+        <servlet-name>sample</servlet-name>
+        <servlet-class>com.imooc.Student</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <!--    servlet与url绑定-->
+    <servlet-mapping>
+        <servlet-name>sample</servlet-name>
+        <url-pattern>/student</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <!--        servlet的别名-->
+        <servlet-name>firstReq</servlet-name>
+        <servlet-class>com.imooc.reqServletGet</servlet-class>
+    </servlet>
+    <!--    servlet与url绑定-->
+    <servlet-mapping>
+        <servlet-name>firstReq</servlet-name>
+        <url-pattern>/firstReq</url-pattern>
+    </servlet-mapping>
+    <!-- http://IP:端口/context-path/url-mapping   -->
+    <!--  context1代表上下文名称，也就是工程名称  -->
+
+
+</web-app>

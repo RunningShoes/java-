@@ -1,0 +1,56 @@
+p{
+    /* background-color: red;*/
+    font-size: 40px;
+    /* color:plum;  */
+    color:#000000;
+    /* 对其方法 */
+    direction:ltr;
+    /* 字符间距 */
+    letter-spacing: 10px;
+    /* 行高 */
+    line-height: 60px;
+    /* 文本对齐方式 */
+    text-align: center;
+    /* 文本修饰 */
+    text-decoration: underline;
+    /* 文本影音 */
+    text-shadow:5px 5px 5px blue;
+    /*文本缩进 */
+    text-indent: 20px;
+
+
+    /* 字体 */
+    font-style: italic;
+    font-weight: bold;
+    font-size:20px;
+
+
+    /* /* 列表 */
+    
+}
+.p1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+ol{
+    list-style-type: lower-greek;
+}
+
+body{
+     /* background-color: yellowgreen;       /*社会背景颜色*/
+    /* background-image: url("IMG_0183.jpeg");    /*设置图片*/
+    /* background-repeat:no-repeat;
+    background-attachment: scroll;      */
+    /* background-position:top center; */
+    /* background-position: 100px 100px; */
+
+    /*可以简写为一下*/
+
+    background:yellow url("IMG_0183.jpeg") repeat scroll top center ;
+}
